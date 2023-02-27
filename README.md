@@ -5,7 +5,7 @@ To run the code please follow the below steps :<br>
     ```gcc <file_name.c> -o <you-file.o>``` <br>
  Above mentioned file to be generated with extension <o> is an object file that will be executed later on. <br>
  3.Run the following command to run the linux executable: <br>
-  ``` ./<your_file_with_extension.o>``` <br>
+  ```./<your_file_with_extension.o>``` <br>
 
 
  
