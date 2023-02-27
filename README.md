@@ -1,5 +1,5 @@
 To run the code please follow the below steps :
-**In Linux environments** : 
+**In Linux environments** : <br>
  1.Navigate to the src folder where the source files are located. <br>
  2.For each file with extension c (c-lang files) run the following command for compilation:
     ```gcc <file_name.c> -o <you-file.o>```
