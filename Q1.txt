@@ -1,0 +1,4 @@
+Here is the single line shell command that depicts a colorful animal uttering a Chuck Norris fact:
+curl -s "https://api.chucknorris.io/jokes/random" | jq -r '.value' | cowsay -f dragon-and-cow | lolcat
+
+Note that you should replace <your_animal_option> with your preferred animal option from cowsay, as specified in the rules. Also, make sure to install the required tools before executing this command, as mentioned in Question 1 rule 8.

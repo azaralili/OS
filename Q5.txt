@@ -1,0 +1,4 @@
+Question 5                                                                                                                          
+1:The article's author did not see fork() calls in strace output because strace does not trace system calls made by the execve() function, which is used to turn the newly-created process into the desired program. When the new process is created with fork(), the execve() function transforms the process into the specified program, replacing the process image with the new program. This results in the original process image being replaced and no longer available to strace, so the calls made by execve() are not shown in the strace output.                                         
+2:The author saw a system call execve() instead of fork() in strace.                                  
+3:The library procedure used by the author's code is the unistd.h library in C.
